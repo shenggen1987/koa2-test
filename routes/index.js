@@ -4,7 +4,7 @@ router.get('/', async (ctx, next) => {
   ctx.state = {
     title: 'koa2 title'
   }
-  let a = 4
+   a = 4
   await ctx.render('index', {
   })
 })
