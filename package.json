@@ -7,8 +7,8 @@
     "koa": "./node_modules/.bin/runkoa bin/www",
     "pm2": "pm2 start bin/run ",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "standard --fix",
-    "precommit": "sh precommit.sh"
+    "lint": "standard",
+    "precommit": "npm run lint"
   },
   "dependencies": {
     "co": "^4.6.0",

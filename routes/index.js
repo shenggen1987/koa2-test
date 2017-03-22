@@ -5,6 +5,7 @@ router.get('/', async (ctx, next) => {
     title: 'koa2 title'
   }
    a = 4
+   
   await ctx.render('index', {
   })
 })
